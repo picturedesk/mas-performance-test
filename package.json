@@ -1,0 +1,23 @@
+{
+  "name": "mas-performance-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/picturedesk/mas-performance-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/picturedesk/mas-performance-test/issues"
+  },
+  "homepage": "https://github.com/picturedesk/mas-performance-test#readme",
+  "devDependencies": {
+    "cypress": "^3.4.1"
+  }
+}
