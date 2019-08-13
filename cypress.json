@@ -1,3 +1,4 @@
 {
-  "testFiles": "mas/*.js"
+  "testFiles": "mas/*.js",
+  "video": false
 }

@@ -1,10 +1,9 @@
 /// <reference types="Cypress" />
 import {firstLevelMenu, secondLevelMenu, thirdLevelMenu} from "../../support/helpers";
 
-context('MAS Headless', () => {
-
+context('MAS Traditional', () => {
     it('Loading', () => {
-        cy.visit('https://headless.picturedesk.ch')
+        cy.visit('https://traditional.picturedesk.ch')
     });
 
     it('Metanav', () => {
