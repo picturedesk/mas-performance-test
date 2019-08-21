@@ -79,7 +79,7 @@ context('Files', () => {
 
     // You can read a file and yield its contents
     // The filePath is relative to your project's root.
-    cy.readFile('cypress.json').then((json) => {
+    cy.readFile('cypress-test.json').then((json) => {
       expect(json).to.be.an('object')
     })
   })
@@ -93,7 +93,7 @@ context('Files', () => {
     // generate a fixture file for use later
     cy.request('https://jsonplaceholder.cypress.io/users')
       .then((response) => {
-        cy.writeFile('cypress/fixtures/users.json', response.body)
+        cy.writeFile('cypress-test/fixtures/users.json', response.body)
       })
     cy.fixture('users').should((users) => {
       expect(users[0].name).to.exist
@@ -101,7 +101,7 @@ context('Files', () => {
 
     // JavaScript arrays and objects are stringified
     // and formatted into text.
-    cy.writeFile('cypress/fixtures/profile.json', {
+    cy.writeFile('cypress-test/fixtures/profile.json', {
       id: 8739,
       name: 'Jane',
       email: 'jane@example.com',

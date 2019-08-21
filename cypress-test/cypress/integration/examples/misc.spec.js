@@ -34,10 +34,10 @@ context('Misc', () => {
     cy.log(`Platform ${Cypress.platform} architecture ${Cypress.arch}`)
 
     if (Cypress.platform === 'win32') {
-      cy.exec('print cypress.json')
+      cy.exec('print cypress-test.json')
         .its('stderr').should('be.empty')
     } else {
-      cy.exec('cat cypress.json')
+      cy.exec('cat cypress-test.json')
         .its('stderr').should('be.empty')
 
       cy.exec('pwd')

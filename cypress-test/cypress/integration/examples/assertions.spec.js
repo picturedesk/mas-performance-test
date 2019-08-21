@@ -43,7 +43,7 @@ context('Assertions', () => {
       cy.get('.assertions-link')
         .should('have.class', 'active')
         .and('have.attr', 'href')
-        .and('include', 'cypress.io')
+        .and('include', 'cypress-test.io')
     })
   })
 

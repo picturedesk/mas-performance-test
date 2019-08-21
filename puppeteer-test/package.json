@@ -1,0 +1,22 @@
+{
+  "name": "mas-performance-test-puppeteer",
+  "version": "1.0.0",
+  "description": "Code used in article https://michaljanaszek.com/blog/test-website-performance-with-puppeteer",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^1.6.0",
+    "chrome-har": "^0.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/picturedesk/mas-performance-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/picturedesk/mas-performance-test/issues"
+  }
+}
