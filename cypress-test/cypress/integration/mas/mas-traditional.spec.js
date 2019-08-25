@@ -2,8 +2,9 @@
 import {firstLevelMenu, secondLevelMenu, thirdLevelMenu} from "../../support/helpers";
 
 context('MAS Traditional', () => {
+
     it('Loading', () => {
-        cy.visit('https://tranditional-measure.picturedesk.ch')
+        cy.visit('https://traditional-measure.picturedesk.ch');
     });
 
     it('Metanav', () => {
